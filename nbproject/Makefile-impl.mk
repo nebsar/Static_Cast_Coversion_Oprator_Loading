@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Static_Cast
+PROJECTNAME=Static_Cast_Coversion_Oprator_Loading
 
 # Active Configuration
 DEFAULTCONF=Debug

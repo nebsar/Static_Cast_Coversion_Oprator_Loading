@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=static_cast
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/static_cast
+CND_ARTIFACT_NAME_Debug=static_cast_coversion_oprator_loading
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/static_cast_coversion_oprator_loading
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=staticcast.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/staticcast.tar
+CND_PACKAGE_NAME_Debug=staticcastcoversionopratorloading.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/staticcastcoversionopratorloading.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=static_cast
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/static_cast
+CND_ARTIFACT_NAME_Release=static_cast_coversion_oprator_loading
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/static_cast_coversion_oprator_loading
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=staticcast.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/staticcast.tar
+CND_PACKAGE_NAME_Release=staticcastcoversionopratorloading.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/staticcastcoversionopratorloading.tar
 #
 # include compiler specific variables
 #

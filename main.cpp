@@ -23,11 +23,17 @@ public:
         std::cout << "Conversion Constructor : \n";
     }
 
-    operator std::string() {  // this is a good example for operator overloading
+    operator std::string() { // this is a good example for operator overloading
         std::cout << "Conversion operator : \n";
         return std::to_string(m_x);
     }
 
+};
+
+class Base {
+};
+
+class Derived : private Base {
 };
 
 int main() {
@@ -40,6 +46,15 @@ int main() {
 
     Int str3 = static_cast<Int> (30);
 
+    Derived d;
+
+    Base* b1 = static_cast<Base*> (&d); // since Base access specifier is private, gives error
+    
+    int i = 0;
+    
+    void* v = static_cast<void*>(&i); // static_cast is used to casting from and to void pointer
+    
+    int* ip = static_cast<int*>(v); // static_cast is used to casting from and to void pointer
 
 
     return 0;
